@@ -29,7 +29,7 @@ public class Login extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		User userConnected = new User("case","wil", 28 , 15 ,"java");
+		User userConnected = new User("case","wil", 28 , 15 ,"java", 12345);
 		
 		//set user dans session
 		HttpSession session = request.getSession();

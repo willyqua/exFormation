@@ -6,16 +6,18 @@ public class User {
 	private int age;
 	private int note;
 	private String formation;
+	private int motDp;
 	
 	public User(){}
 
-	public User(String nom, String prenom, int age, int note, String formation) {
+	public User(String nom, String prenom, int age, int note, String formation, int motDp) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
 		this.note = note;
 		this.formation = formation;
+		this.motDp = motDp;
 	}
 
 	public String getNom() {
@@ -58,6 +60,15 @@ public class User {
 		this.formation = formation;
 	}
 
+	public int getMotDp() {
+		return motDp;
+	}
+
+	public void setMotDp(int motDp) {
+		this.motDp = motDp;
+	}
+
+	
 	
 	
 }

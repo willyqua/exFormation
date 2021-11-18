@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>page d'accueil</h1>
-<a href= "/exoFormation/formation">Titre des Formations</a>
-<a href= "/exoFormation/eleve">Liste des Elèves</a>
+<h1> Détails des formations</h1>
 </body>
 </html>

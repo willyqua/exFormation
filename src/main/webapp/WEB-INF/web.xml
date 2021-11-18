@@ -3,6 +3,7 @@
   <display-name>exoServelt</display-name>
   <welcome-file-list>
    
+   	<welcome-file>accueil</welcome-file>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>index.jsp</welcome-file>
@@ -10,4 +11,21 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+
+
+ <!--  <display-name>authentification</display-name>
+    <servlet>
+        <description>
+        </description>
+        <display-name>Controleur</display-name>
+        <servlet-name>Controleur</servlet-name>
+        <servlet-class>
+        com.sqli.test.servlet.Controleur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Controleur</servlet-name>
+        <url-pattern>/Controleur</url-pattern>
+    </servlet-mapping> -->
+
+
 </web-app>

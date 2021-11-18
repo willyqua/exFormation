@@ -1,17 +1,19 @@
 package model;
 
+import java.util.List;
+
 public class Formation {
 	
 	private String titre;
-	private String programme;
+	private String programmation;
 	private int nbreEleves;
 	
 	public Formation() {}
 
-	public Formation(String titre, String programme, int nbreEleves) {
+	public Formation(String titre, String programmation, int nbreEleves) {
 		super();
 		this.titre = titre;
-		this.programme = programme;
+		this.programmation = programmation;
 		this.nbreEleves = nbreEleves;
 	}
 
@@ -23,12 +25,12 @@ public class Formation {
 		this.titre = titre;
 	}
 
-	public String getProgramme() {
-		return programme;
+	public String getProgrammation() {
+		return programmation;
 	}
 
-	public void setProgramme(String programme) {
-		this.programme = programme;
+	public void setProgrammation(String programmation) {
+		this.programmation = programmation;
 	}
 
 	public int getNbreEleves() {
@@ -38,6 +40,9 @@ public class Formation {
 	public void setNbreEleves(int nbreEleves) {
 		this.nbreEleves = nbreEleves;
 	}
+
+	
+	
 	
 
 }

@@ -8,5 +8,18 @@
 </head>
 <body>
 <h1>Page de login</h1>
+
+<p >Nom : <input type="text" name="login" /></p>
+<p >Prénom : <input type="password" name="pwd" /></p>
+
+<!--  <form name="firstForm" action="controleur" method="post">
+<p >Nom : <input type="text" name="login" /></p>
+<p >Prénom : <input type="password" name="pwd" /></p>
+<p ><input type="submit" name="Valider" value="Valider"/></p>
+</form> -->
+
+
+
+
 </body>
 </html>
